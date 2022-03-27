@@ -85,7 +85,7 @@ async def home(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/indusbots'),
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/DeadDealbots'),
         InlineKeyboardButton('Source Code', url='https://github.com/benchamxd/Telegraph-Uploader')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
@@ -110,7 +110,7 @@ async def help(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/indusbots')
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/DeadDealbots')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
